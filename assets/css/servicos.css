@@ -1,0 +1,106 @@
+
+/* Services Section */
+.services {
+    /* padding: 5rem 0; */
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.service-card {
+    background: var(--color-04);
+    border-radius: 5px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    animation: scaleIn 0.2s ease-out;
+    background-color: rgba(0, 70, 209, 0.174);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.service-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.service-card:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.service-card:hover {
+    transform: translateY(-0.5rem);
+}
+
+.service-icon {
+    background: var(--color-01);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.service-icon svg {
+    width: 2rem;
+    height: 2rem;
+    color: var(--color-02);
+}
+
+.service-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-01);
+    margin-bottom: 1rem;
+}
+
+.service-description {
+    color: var(--color-03);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.service-features {
+    list-style: none;
+}
+
+.service-features li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--color-03);
+    margin-bottom: 0.5rem;
+}
+
+.service-features li::before {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    background: var(--color-02);
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+}
+
+.secondary-button {
+    background: var(--color-02);
+    color: var(--color-04);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.secondary-button:hover {
+    background: var(--color-01);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px var(--color-02);
+}
