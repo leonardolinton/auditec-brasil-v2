@@ -1,4 +1,3 @@
-
 /* About Section */
 .about {
     background: var(--color-03);
@@ -82,4 +81,12 @@
 .stat-label {
     color: var(--color-03);
     font-weight: 500;
+}
+
+
+@media (max-width: 750px) {
+    .stat-card {
+        padding: 1rem;
+    }
+
 }
