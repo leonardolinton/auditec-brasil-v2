@@ -1,7 +1,12 @@
 
 /* Testimonials Section */
 .testimonials {
-    /*padding: 5rem 0;*/
+    background: var(--color-01);
+}
+
+#depoimentos h2,
+#depoimentos h3{
+    color: aliceblue;
 }
 
 .testimonials-grid {
@@ -11,81 +16,37 @@
 }
 
 .testimonial-card {
-    border-radius: 5px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
-    animation: scaleIn 0.3s ease-out;
-    border: solid 1px var(--color-02);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.testimonial-card:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-.testimonial-card:nth-child(3) {
-    animation-delay: 0.4s;
+    background: var(--color-03);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
 }
 
 .testimonial-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
 }
 
-.quote-icon {
+.stars {
+    color: #ffc107;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 
-.quote-icon svg {
-    width: 2rem;
-    height: 2rem;
-    color: var(--color-02);
-}
-
-.testimonial-text {
-    color: var(--color-03);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
+.testimonial-content p {
     font-style: italic;
-}
-
-.rating {
-    display: flex;
-    gap: 0.25rem;
-    margin-bottom: 1rem;
-}
-
-.star {
-    color: var(--color-02);
-    font-size: 1rem;
-}
-
-.client-info {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.client-photo {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.client-name {
-    font-weight: 600;
-    color: var(--color-01);
-    margin-bottom: 0.25rem;
-}
-
-.client-location {
-    font-size: 1rem;
-    color: var(--color-03);
-}
-
-.cta-text {
-    font-size: 1rem;
-    color: var(--color-03);
     margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.author-info strong {
+    color: var(--color-01);
+    font-weight: 600;
+}
+
+.author-info span {
+    color: var(--color-04);
+    font-size: 0.9rem;
+    display: block;
 }

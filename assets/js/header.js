@@ -1,4 +1,3 @@
-/*===== ANIMATION SCROL =====*/
 const sections = document.querySelectorAll("section");
 const menuLinks = document.querySelectorAll(".menu-link");
 
@@ -33,7 +32,8 @@ window.addEventListener("scroll", function () {
 });
 
 
-/*===== MENU MOBILE =====*/
+
+/*========== MOBILE ==========*/
 const btnMobile = document.getElementById("btn-mobile");
 
 function toggleMenu(event) {
@@ -52,4 +52,6 @@ function toggleMenu(event) {
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
 menu.addEventListener("click", toggleMenu);
+
+
 

@@ -1,116 +1,43 @@
+
 /* Hero Section */
 .hero {
-    position: relative;
+    background: linear-gradient(rgba(0, 3, 37, 0.794), rgba(0, 0, 3, 0.737)), url('../img/hero-bg-3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 120px 0 80px;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: linear-gradient(180deg, var(--color-01) 0%, var(--color-02) 100%);
-    color: var(--color-04);
-    text-align: center;
 }
 
 .hero-content {
-    position: relative;
+    color: var(--color-03);
+    text-align: center;
+    max-width: 800px;
     margin: 0 auto;
-    animation: fadeIn 0.6s ease-out;
-}
-
-
-.hero-icon .material-symbols-outlined {
-    margin: 2rem 0;
-    font-size: 6rem;
-    color: var(--color-04);
 }
 
 .hero-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
 
-.title-highlight {
+.text-highlight {
     color: var(--color-02);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.164);
 }
 
-.hero-subtitle {
-    font-size: 1rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    color: var(--color-04);
-    max-width: 48rem;
-    margin-left: auto;
-    margin-right: auto;
+.hero-description {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+    line-height: 1.6;
 }
 
-.cta-button {
-    background: var(--color-04);
-    color: var(--color-01);
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 1.125rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 4rem;
-}
-
-.cta-button:hover {
-    background: var(--color-04);
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-.arrow-icon {
-    width: 1.25rem;
-    height: 1.25rem;
-    transition: transform 0.3s ease;
-}
-
-.cta-button:hover .arrow-icon {
-    transform: translateX(0.25rem);
-}
-
-.trust-indicators {
+.hero-buttons {
     display: flex;
-    align-items: center;
+    gap: 1rem;
     justify-content: center;
-    gap: 2rem;
-    color: var(--color-04);
-}
-
-
-.indicator-number {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 0.25rem;
-}
-
-.indicator-text {
-    color: var(--color-04);
-    font-size: 0.875rem;
-}
-
-
-
-@media (max-width: 640px) {
-    .hero-title {
-        font-size: 1rem;
-
-    }
-
-    .cta-button {
-        font-size: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .hero-icon .material-symbols-outlined {
-    font-size: 3.5rem;
-    margin-bottom: 0rem;
-}
+    flex-wrap: wrap;
 }
