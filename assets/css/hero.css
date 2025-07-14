@@ -1,7 +1,7 @@
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 3, 37, 0.794), rgba(0, 0, 3, 0.737)), url('../img/hero-bg-3.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 3, 37, 0.794), rgba(0, 0, 3, 0.737)), url('../img/hero-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 120px 0 80px;
     min-height: 100vh;
