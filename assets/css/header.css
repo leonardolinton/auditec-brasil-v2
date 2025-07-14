@@ -143,7 +143,7 @@
         top: 10vh;
         right: -100vw;
 
-        background: var(--color-02);
+        background: var(--color-01);
         transition: 0.5s;
         z-index: 1000;
 
