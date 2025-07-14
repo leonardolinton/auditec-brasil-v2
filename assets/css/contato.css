@@ -50,7 +50,7 @@
 
 /* Form Styles */
 .contact-form {
-    background: var(--color-02);
+    background: var(--color-01);
     padding: 2rem;
     border-radius: var(--border-radius);
 }
@@ -94,4 +94,16 @@
     background-color: var(--color-01);
     padding: 10px;
     border-radius: 5px;
+}
+
+
+.contact-form button{
+    color: var(--color-03);
+    border: solid #2CD46B;
+    background-color: #2CD46B;
+}
+
+.contact-form button:hover{
+    border: solid #23a555;
+    background-color: #23a555;
 }

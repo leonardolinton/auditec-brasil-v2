@@ -19,8 +19,8 @@
 }
 
 :root {
-    --color-01: #01216A;
-    --color-02: #1664BE;
+    --color-01: #001a57;
+    --color-02: #008cff;
     --color-03: #f8f9fa;
     --color-04: #494947;
     --color-05: #F54401;
@@ -60,24 +60,25 @@ body {
 }
 
 .btn-primary {
+    border: 2px solid var(--color-03);
     background: var(--color-03);
     color: var(--color-01);
 }
 
 .btn-primary:hover {
-    background: var(--color-03);
-    box-shadow: var(--shadow-lg);
+    background: transparent;
+    color: var(--color-03);
 }
 
 .btn-secondary {
-    background: transparent;
+    background: var(--color-02);
     color: var(--color-03);
-    border: 2px solid var(--color-03);
+    border: 2px solid var(--color-02);
 }
 
 .btn-secondary:hover {
-    background: var(--color-03);
-    color: var(--color-01);
+    background: transparent;
+    color: var(--color-02);
 }
 
 /* Section Styles */
