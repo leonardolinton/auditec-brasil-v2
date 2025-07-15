@@ -1,7 +1,8 @@
 
 /* Testimonials Section */
 .testimonials {
-    background: var(--color-01);
+    background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.808)), url('../img/bank-vault2.webp') no-repeat center center fixed;
+    background-size: cover;
 }
 
 #depoimentos h2,

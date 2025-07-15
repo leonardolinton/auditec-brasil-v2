@@ -15,13 +15,8 @@
 }
 
 .menuNav.scrolled {
-    background-color: var(--color-01);
+    background-color: var(--color-03);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    /* background: rgba(255, 255, 255, 0.05);
-    
-    backdrop-filter: blur(4.6px);
-    -webkit-backdrop-filter: blur(4.6px);
-    border-bottom: 0.1px solid rgba(255, 255, 255, 0.158); */
 }
 
 #nav {
@@ -43,8 +38,8 @@
     align-items: center;
     gap: 5px;
     text-decoration: none;
-    color: var(--color-03);
-    font-weight: var(--fs-l);
+    color: var(--color-02);
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -75,7 +70,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: var(--color-03);
+    background-color: var(--color-01);
     transition: width 0.3s ease;
 }
 
@@ -83,9 +78,8 @@
     width: 100%;
 }
 
-/*==== TESTE MENU ====*/
 #menu .menu-link.active {
-    color: var(--color-03);
+    color: var(--color-01);
     font-weight: bold;
 }
 
@@ -123,7 +117,7 @@
 @media (max-width: 1400px) {
 
     .menuNav {
-        background-color: var(--color-01);
+        background-color: var(--color-03);
     }
 }
 
@@ -143,7 +137,7 @@
         top: 10vh;
         right: -100vw;
 
-        background: var(--color-01);
+        background: var(--color-03);
         transition: 0.5s;
         z-index: 1000;
 
@@ -166,7 +160,7 @@
         padding: 10px;
         font-size: 15px;
         border: none;
-        background: var(--color-03);
+        background: var(--color-01);
         cursor: pointer;
         gap: 10px;
         border-radius: 5px;
@@ -175,7 +169,7 @@
     #hamburger {
         border-top: 2px solid;
         width: 20px;
-        color: var(--color-01);
+        color: var(--color-03);
     }
 
     #hamburger::after,

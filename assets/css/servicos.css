@@ -1,7 +1,8 @@
 
 /* Services Section */
 .services {
-    background: var(--color-01);
+    background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.479)), url('../img/1200px-WinonaSavingsBankVault.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .services-grid {
@@ -11,7 +12,10 @@
     gap: 2rem;
 }
 
-#servicos .section-header h2,
+#servicos .section-header h2{
+    color: var(--color-02);
+}
+
 #servicos .section-header p{
     color: var(--color-03);
 }
@@ -33,7 +37,7 @@
 .service-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, var(--color-02), var(--color-01));
+    background: var(--color-02);
     border-radius: 50%;
     display: flex;
     align-items: center;

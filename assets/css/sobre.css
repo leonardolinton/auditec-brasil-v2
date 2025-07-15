@@ -14,7 +14,7 @@
 .about-section h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--color-01);
+    color: var(--color-02);
     margin-bottom: 1rem;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .stats-grid {
-    background: linear-gradient(rgba(0, 4, 44, 0.76), rgba(0, 0, 3, 0.74)), url('../img/sobre.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 3, 0.74)), url('../img/sobre-01.jpg') no-repeat center center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
