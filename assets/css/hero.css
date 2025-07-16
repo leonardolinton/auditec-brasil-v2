@@ -2,7 +2,7 @@
 /* Hero Section */
 .hero {
     position: relative;
-    background: url('../img/hero-bg.jpg') no-repeat center center fixed;
+    background: url('../img/home-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 120px 0 80px;
     min-height: 100vh;

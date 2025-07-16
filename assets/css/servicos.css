@@ -1,7 +1,7 @@
 /* Services Section */
 .services {
     position: relative;
-    background: url('../img/hero-bg.jpg') no-repeat center center fixed;
+    background: url('../img/home-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: 0;
 }
