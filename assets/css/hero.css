@@ -2,15 +2,14 @@
 /* Hero Section */
 .hero {
     position: relative;
-    background: url('../img/bank-vault2.webp');
+    background: url('../img/hero-bg.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     padding: 120px 0 80px;
     min-height: 100vh;
     display: flex;
     align-items: center;
     overflow: hidden;
+    z-index: 0;
 }
 
 .hero-overlay {
@@ -19,7 +18,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(0, 0, 0, 0.801);
+  z-index: -1; 
 }
 
 .hero-content {

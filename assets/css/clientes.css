@@ -2,7 +2,7 @@
 /* Testimonials Section */
 .testimonials {
     position: relative;
-    background: url('../img/bank-vault2.webp') no-repeat center center fixed;
+    background: url('../img/hero-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
     z-index: 0;
@@ -11,7 +11,7 @@
 .testimonials::after{
     position: absolute;
     content: '';
-    background: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.801);
     width: 100%;
     height: 100%;
     left: 0;
