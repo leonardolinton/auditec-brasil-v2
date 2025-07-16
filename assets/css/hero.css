@@ -1,18 +1,36 @@
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.808)), url('../img/bank-vault2.webp') no-repeat center center fixed;
+    position: relative;
+    background: url('../img/bank-vault2.webp');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 120px 0 80px;
     min-height: 100vh;
     display: flex;
     align-items: center;
+    overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.678);
 }
 
 .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: var(--color-03);
     text-align: center;
     max-width: 800px;
+    height: 100vh;
     margin: 0 auto;
 }
 

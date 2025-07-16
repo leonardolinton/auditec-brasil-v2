@@ -1,13 +1,31 @@
 
 /* Testimonials Section */
 .testimonials {
-    background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.808)), url('../img/bank-vault2.webp') no-repeat center center fixed;
+    position: relative;
+    background: url('../img/bank-vault2.webp') no-repeat center center fixed;
     background-size: cover;
+    overflow: hidden;
+    z-index: 0;
 }
 
-#depoimentos h2,
+.testimonials::after{
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.726);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#depoimentos h2{
+    color: var(--color-02);
+}
+
 #depoimentos h3{
     color: aliceblue;
+    font-weight: 500;
 }
 
 .testimonials-grid {

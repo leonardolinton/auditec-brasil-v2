@@ -19,11 +19,10 @@
 }
 
 :root {
-    --color-01: #1802D3;
+    --color-01: #008CFF;
     --color-02: #F54401;
     --color-03: #f1f1f1;
     --color-04: #494947;
-    --color-05: #F54401;
     --transition: all 0.3s ease;
     --border-radius: 5px;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
