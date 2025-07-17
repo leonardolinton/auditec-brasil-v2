@@ -60,7 +60,7 @@
 }
 
 #menu .menu-link:hover {
-    color: var(--color-03);
+    color: var(--color-01);
 }
 
 #menu .menu-link::after {

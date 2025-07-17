@@ -2,8 +2,10 @@
 /* Hero Section */
 .hero {
     position: relative;
-    background: url('../img/home-bg.jpg') no-repeat center center fixed;
+    background-image: url('../img/home-bg.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 120px 0 80px;
     min-height: 100vh;
     display: flex;
@@ -12,14 +14,15 @@
     z-index: 0;
 }
 
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.801);
-  z-index: -1; 
+.hero::after{
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .hero-content {
@@ -30,7 +33,6 @@
     color: var(--color-03);
     text-align: center;
     max-width: 800px;
-    height: 100vh;
     margin: 0 auto;
 }
 
