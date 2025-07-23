@@ -1,7 +1,7 @@
 
 /* Hero Section */
-.hero {
-    background-image: url('../img/home-bg-darken.jpg');
+#home {
+    background: url(../img/home-bg-darken.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
