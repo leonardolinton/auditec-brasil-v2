@@ -1,8 +1,8 @@
 
 /* Hero Section */
-#home {
+.hero {
     background: url(../img/home-bg-darken.jpg);
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 120px 0 80px;
@@ -47,4 +47,11 @@
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+
+@media (max-width: 480px) {
+    .hero {
+        background-attachment: scroll;
+    }
 }
