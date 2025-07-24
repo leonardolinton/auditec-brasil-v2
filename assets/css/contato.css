@@ -70,7 +70,7 @@
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid #e2e8f0;
     border-radius: var(--border-radius);
     font-family: inherit;
@@ -107,4 +107,11 @@
 .contact-form button:hover{
     border: solid #23a555;
     background-color: #23a555;
+}
+
+
+@media (max-width: 480px) {
+    .contact-form {
+    padding: 1rem;
+    }
 }
