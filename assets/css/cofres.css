@@ -1,13 +1,17 @@
 
 /* Safes Section */
 .safes {
-    background: var(--color-03);
+    background: var(--color-04);
+}
+
+#cofres .section-header p{
+    color: var(--color-03);
 }
 
 .safes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
 }
 
 .safe-card {
@@ -17,7 +21,7 @@
     overflow: hidden;
     transition: var(--transition);
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    background: var(--color-04);
+    background: var(--color-03);
 }
 
 .safe-card:hover {
@@ -30,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: var(--color-03);
 }
 
 .safe-image img {
@@ -38,25 +42,25 @@
 }
 
 .safe-content {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .safe-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    color: var(--color-03);
+    color: var(--color-01);
     margin-bottom: 1rem;
 }
 
 .safe-content p {
     margin-bottom: 1.5rem;
     line-height: 1.6;
-    color: var(--color-03);
+    color: var(--color-04);
 }
 
 .safe-content ul{
     list-style-type: circle;
-    color: var(--color-03);
+    color: var(--color-0);
 }
 
 .safe-features li {
