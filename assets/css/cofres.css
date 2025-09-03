@@ -68,13 +68,13 @@
     flex-grow: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
     .products-grid {
         grid-template-columns: 1fr;
     }
 
     .product-card {
-        max-width: 400px;
+        width: 100%;
         margin: 0 auto;
     }
 }
